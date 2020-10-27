@@ -1,6 +1,4 @@
 const Discord = require('discord.js');
-const { prefix } = (process.env.prefix);
-
 const client = new Discord.Client();
 
 client.once('ready', () => {
