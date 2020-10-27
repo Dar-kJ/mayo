@@ -1,0 +1,24 @@
+{
+  "name": "mayo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "discord.js-commando": "^0.11.0-dev"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinoa-hiragi/mayo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinoa-hiragi/mayo/issues"
+  },
+  "homepage": "https://github.com/shinoa-hiragi/mayo#readme"
+}
