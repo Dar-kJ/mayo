@@ -29,7 +29,7 @@ client.on('message', message => {
         message.channel.send(`They show others who you are and basically your bio. You can locate roles under the member category. If a role is not working, contact a staff member.`);
 
     if(message.content.startsWith === `${prefix}help`)
-        const embed = new Discord.MessageEmbed()
+        embed = new Discord.MessageEmbed()
         .setDescription('Available questions: `1: Who\'s the founder of this server?`')
         .setColor('#eb4034')
         .setTimestamp()
