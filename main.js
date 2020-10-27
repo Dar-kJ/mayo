@@ -7,8 +7,6 @@ const client = new Discord.Client();
 client.once('ready', () => {
     console.log('Ready.....');
     client.user.setActivity(',,help');
-    const channel = guild.channels.find(ch => ch.name === '#┊꒰꒰☄･ﾟ꒱・botsˎˊ');
-    channel.send('kiss, :kissing_cat:');
 });
 
 client.on('message', message => {
