@@ -27,13 +27,8 @@ client.on('message', message => {
     if(message.content.startsWith === `What are roles?`)
         message.channel.send(`They show others who you are and basically your bio. You can locate roles under the member category. If a role is not working, contact a staff member.`);
 
-    const embed = new Discord.MessageEmbed()
-    .setDescription('Available questions: `1: Who\'s the founder of this server?`')
-    .setColor('#eb4034')
-    .setTimestamp()
-
     if(message.content.startsWith === `${prefix}help`)
-        message.channel.send(embed);
+        message.channel.send('Test.');
 });
 
 client.login(process.env.TOKEN);
