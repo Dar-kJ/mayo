@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-const path = require('path');
-const { token } = require('./config.json');
+// const path = require('path');
+// const { token } = require('./config.json');
 
 const client = new Discord.Client();
 
@@ -28,8 +28,6 @@ client.on('message', message => {
     if(message.content === `What are roles?`)
         message.channel.send(`They show others who you are and basically your bio. You can locate roles under the member category. If a role is not working, contact a staff member.`);
 });
-
-
 
 client.login(process.env.TOKEN);
 // client.login(token);
