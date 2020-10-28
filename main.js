@@ -7,6 +7,10 @@ client.once('ready', () => {
     client.user.setActivity(',,help');
 });
 
+const embed = {
+	color: 000000,
+};
+
 client.on('message', message => {
     if(message.content === `Who's the founder of this server?`)
         message.channel.send(`Frankie, our previous owner. They created this server and brought all of these amazing people together in July of 2020.`);
