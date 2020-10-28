@@ -25,7 +25,7 @@ client.on('message', message => {
     if(message.content === `What are roles?`)
         message.channel.send(`They show others who you are and basically your bio. You can locate roles under the member category. If a role is not working, contact a staff member.`);
         
-    if(message.content.includes('suicide') || message.content.includes('Suicide')) {
+    if(message.content.match(/suicide/gi)) {
         if(message.author.bot) {
             return;
         } else {
